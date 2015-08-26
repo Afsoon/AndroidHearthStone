@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AHS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="attack">Inserte un valor de ataque</string>
+    <string name="cost">Inserte el coste de las cartas</string>
+    <string name="durability">Inserte la duración del arma</string>
+    <string name="healthy">Inserte la vida del esbirro</string>
+    <string name="search">Pulse para buscar</string>
+    <string name="collectible">0 para cartas coleccionables y no coleccionables y 1 para solo coleccionables </string>
+    <string name="locale">Seleccione el idioma de búsqueda</string>
+    <string name="classes">Selecciona la clase que quiera buscar</string>
+
+    <string-array name="spinner">
+        <item>Seleccione un elemento</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>enUS</item>
+        <item>enGB</item>
+        <item>esES</item>
+    </string-array>
+
+    <string-array name="collectible">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>
