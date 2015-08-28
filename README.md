@@ -28,13 +28,13 @@ Los patrones utilizados son:
   - <b>MVVM</b>: Para mantener una indenpendecia entre la lógica de la interfaz y la lógica de negocio
   asociada a esa interfaz y facilitar su testeo y reusabilidad en otros proyectos.
   
-  - <b>Repository</b>: Tenemos una interfaz que hace de intermediario entre la interfaz de usuario y 
+  - <b>DAO</b>: Tenemos una interfaz que hace de intermediario entre la interfaz de usuario y 
   los datos de la aplicación. La aplicación pide los datos que necesita y esta no se preocupa
   de donde se obtiene, está recibirá los datos. En este caso, cuando el usuario pide unos datos
   estos puede proceder de una petición a la API, que después será almacenada en la cache, o de
   la propia cache del programa.
   
-  - <b> Factory </b>: Usando en el patron repository para que nos devuelva la instancia necesario para
+  - <b> Factory </b>: Usando en el patron DAO para que nos devuelva la instancia necesaria para
   obtener los datos que ha pedido el usuario. 
   
 La arquitectura ha sido:
